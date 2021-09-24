@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="song_text_size">18sp</dimen>
+    <dimen name="default_margin">10dp</dimen>
+    <dimen name="margin_top">60dp</dimen>
+</resources>
