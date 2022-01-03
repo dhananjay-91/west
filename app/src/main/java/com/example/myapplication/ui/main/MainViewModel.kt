@@ -17,7 +17,6 @@ class MainViewModel(private val songRepository: SongRepository) :
     companion object {
         private const val TAG = "MainViewModel"
     }
-
     // navigate to Details screen
     private var mNavDetailSongFragment = MutableLiveData<Event<Song>>()
     val navDetailSongFrag: LiveData<Event<Song>> = mNavDetailSongFragment
